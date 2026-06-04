@@ -22,7 +22,7 @@ int main()
 		if (bucket[i])
 			count++;
 	}
-	cout << count << "°³" << endl;
+	cout << count << "Â°Â³" << endl;
 
 	return 0;
 }
