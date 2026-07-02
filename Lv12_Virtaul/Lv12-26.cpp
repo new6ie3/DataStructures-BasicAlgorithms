@@ -7,7 +7,7 @@ class Animal
 public:
 	virtual void Eat() const
 	{
-		cout << "³È³È" << endl;
+		cout << "ëƒ ëƒ " << endl;
 	}
 };
 
@@ -16,7 +16,7 @@ class Mammal : public Animal
 public:
 	virtual void Sleep() const
 	{
-		cout << "ÀáÀÚ±â" << endl;
+		cout << "ìž ìžê¸°" << endl;
 	}
 };
 
@@ -25,17 +25,17 @@ class Dog : public Mammal
 public:
 	void Eat() const override
 	{
-		cout << "°­¾ÆÁö ³È³È" << endl;
+		cout << "ê°•ì•„ì§€ ëƒ ëƒ " << endl;
 	}
 
 	void Sleep() const override
 	{
-		cout << "°­¾ÆÁö ÀáÀÚ±â" << endl;
+		cout << "ê°•ì•„ì§€ ìž ìžê¸°" << endl;
 	}
 
 	virtual void Speak() const
 	{
-		cout << "°­¾ÆÁö ¿Ð¿Ð" << endl;
+		cout << "ê°•ì•„ì§€ ì™ˆì™ˆ" << endl;
 	}
 };
 
@@ -44,17 +44,17 @@ class Cat : public Mammal
 public:
 	void Eat() const override
 	{
-		cout << "°í¾çÀÌ ³È³È" << endl;
+		cout << "ê³ ì–‘ì´ ëƒ ëƒ " << endl;
 	}
 
 	void Sleep() const override
 	{
-		cout << "°í¾çÀÌ ÀáÀÚ±â" << endl;
+		cout << "ê³ ì–‘ì´ ìž ìžê¸°" << endl;
 	}
 
 	virtual void Speak() const
 	{
-		cout << "°í¾çÀÌ ³Ä¿Ë" << endl;
+		cout << "ê³ ì–‘ì´ ëƒì˜¹" << endl;
 	}
 };
 
