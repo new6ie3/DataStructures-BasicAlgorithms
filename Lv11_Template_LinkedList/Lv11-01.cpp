@@ -37,14 +37,14 @@ namespace ya
 
         void push_back(T data)
         {
-            if (mHead == nullptr)  // Ã¹ ¹øÂ° ³ëµå
+            if (mHead == nullptr)  // ì²« ë²ˆì§¸ ë…¸ë“œ
             {
                 mHead = new Node();
                 mHead->data = data;
                 mHead->back = nullptr;
                 mTail = mHead;
             }
-            else  // ±âÁ¸ ³ëµå°¡ ÀÖ´Â °æ¿ì
+            else  // ê¸°ì¡´ ë…¸ë“œê°€ ìˆëŠ” ê²½ìš°
             {
                 mTail->back = new Node();
                 mTail->back->data = data;
