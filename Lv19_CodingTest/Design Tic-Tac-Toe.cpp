@@ -38,7 +38,7 @@ public:
 
 		if (Solution(player) == true)
 		{
-			cout << "�÷��̾� " << player << "�¸�!";
+			cout << "ÇÃ·¹ÀÌ¾î " << player << "½Â¸®!";
 			return player;
 		}
 
